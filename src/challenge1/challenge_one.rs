@@ -15,10 +15,10 @@ fn sum(values: Vec<i32>) -> i32 {
 }
 
 ///Write a function that returns only the even numbers
-//fn even(values: Vec<i32>) -> Vec<i32> {
-//
-//
-//}
+fn even(values: Vec<i32>) -> Vec<i32> {
+
+
+}
 
 ///Write a function that combines two lists such that if we have two lists 1,2,3 and 4,5,6
 ///it becomes 1,4,2,5,3,6
@@ -105,13 +105,13 @@ mod tests {
         assert_eq!(actual,expected)
     }
 
-//    #[test]
-//    fn should_return_even_values() {
-//        let expected = vec![2, 4, 8, 6];
-//        let values = vec![2, 4, 5, 7, 7, 9, 103, 8, 6, 77];
-//        let actual = even(values);
-//        assert_eq!(actual,expected)
-//    }
+    #[test]
+    fn should_return_even_values() {
+        let expected = vec![2, 4, 8, 6];
+        let values = vec![2, 4, 5, 7, 7, 9, 103, 8, 6, 77];
+        let actual = even(values);
+        assert_eq!(actual,expected)
+    }
 //
 //    #[test]
 //    fn should_combine_two_lists() {
